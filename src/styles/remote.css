@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+body{
+    background-image:linear-gradient(#FFF, rgba(77, 83, 77, 0.938));
+    height:98vh;
+}
+.main-form{
+    margin:0 auto;
+    width: 47%;
+    height: 62vh;
+    padding: 22px 2px 22px 2px;
+    background-color: rgba(0, 0, 0, 0.918);
+    border-radius: 22px ;
+    box-shadow: 12px 12px 5px rgba(0, 0, 0, 0.726);
+    color: white;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-items: center;
+}
+.main-form__content{
+    padding-left: 54px ;
+    label{
+        text-align:right;
+    }
+    font-family: Jetbrains mono;
+    font-size: 17pt;
+}
+#submit_{
+    margin-top:26px;
+    background-color: black;
+    width: 100px;
+    height: 39px;
+    color: white;
+    border: 15px white;
+    border-radius: 50px;
+    font-size: 12pt;
+}
+#submit_:hover{
+    cursor:grab;
+}
