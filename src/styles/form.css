@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body{
+    background-color: #222222;
+    height: 100vh;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Jetbrains mono, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.form__construction{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    gap: 260px;
+    padding: 20px;
+    width: 37%;
+    height:70vh;
+    border-radius: 22px;
+    background-color: #e0dede;
+}
+.form__construction:hover{
+    box-shadow: 12px 12px 12px 12px #bbbbbbad;
+    transition: 0.5s;
+}
+.form__image{
+    display: flex;
+}
+
+.form__container{
+    input{
+        border: none;
+        margin-top:2.3px;
+    }
+    margin: 12px 2px 12px 2px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16pt;
+    color: #020202;
+    width: 150px;
+}
+#form__button {
+    background-color: #020202;
+    border:none;
+    border-radius: 23px;
+    color: #FFF;
+    font-size: 12pt;
+    padding: 5.4%;
+    width:151px ;
+    margin-top: 24px;
+}
+#form__button:hover{
+    cursor: pointer;
+}
